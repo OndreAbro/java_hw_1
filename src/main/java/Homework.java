@@ -20,11 +20,11 @@ public class Homework {
         printString("qwerty", 3); // qwertyqwertyqwerty
 
 
-        System.out.println(isLeapYear(2000));
-        System.out.println(isLeapYear(100));
-        System.out.println(isLeapYear(396));
-        System.out.println(isLeapYear(9900));
-        System.out.println(isLeapYear(1984));
+        System.out.println(isLeapYear(2000)); // true
+        System.out.println(isLeapYear(100)); // false
+        System.out.println(isLeapYear(396)); // true
+        System.out.println(isLeapYear(9900)); // false
+        System.out.println(isLeapYear(1984)); // true
 
 
 
@@ -43,7 +43,7 @@ public class Homework {
         System.out.println(Arrays.toString(arr_3)); // [2, 10, 6, 4, 11, 8, 10, 4, 8, 8, 9, 2]
 
         int[][] arr_4 = diagonalArray(5);
-        System.out.println(Arrays.deepToString(arr_4)); // [4,4,4,4,4,4,4,4,4,4]
+        System.out.println(Arrays.deepToString(arr_4)); // [[1, 0, 0, 0, 1], [0, 1, 0, 1, 0], [0, 0, 1, 0, 0], [0, 1, 0, 1, 0], [1, 0, 0, 0, 1]]
 
     }
 
